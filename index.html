@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    background-color: bisque;
+  }
+
+  #OuterBox {
+    background-color: white;
+    height: 500px;
+    width: 700px;
+    margin-left: 250px;
+    margin-top: 70px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  #navigation {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #lower-body {
+    display: flex;
+  }
+
+  #text {
+    margin-left: 50px;
+    /* background-color: blueviolet; */
+    /* line-height: 4.6; */
+    width: 50%;
+  }
+  #text > h1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #image {
+    margin-left: 150px;
+    width: 50%;
+  }
+
+  .nav-2,.nav-3{
+    display: flex;
+  }
+  .nav-2>p{
+    padding: 15px;
+  }
+  .nav-3>p{
+    padding: 10px;
+  }
+  .button{
+    background-color:black;
+    font-size: 15px;
+    color: white;
+    padding-left: 32px;
+    padding-right: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+</style>
+
+<body>
+  <div id="OuterBox">
+    <div id="navigation">
+      <div class="nav-1">
+        <p >Rad Plants</p>
+      </div>
+      <div class="nav-2">
+        <p>Home</p>
+        <p>Catalogue</p>
+        <p>Contact</p>
+      </div>
+      <div class="nav-3">
+        <p>Search</p>
+        <p>Cart(0)</p>
+      </div>
+    </div>
+    <div id="lower-body">
+      <div id="text">
+        <h1>Find Perfect Plants for your home</h1>
+        <p>Beautiful plants that allow you to go creative</p>
+        <button class="button">Shop now</button>
+      </div>
+      <div id="image">
+        <img src="./cactusBC.png" alt="">
+      </div>
+    </div>
+    <div id="footer">
+      <p>Categories</p>
+    </div>
+  </div>
+</body>
+
+</html>
